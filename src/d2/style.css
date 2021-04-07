@@ -1,0 +1,33 @@
+.d2-folder-content,
+.d2-foldertree-content {
+  padding-left: 16px;
+}
+
+.d2-folder-content.closed,
+.d2-foldertree-content.closed {
+  display: none;
+}
+.d2-foldertree {
+  line-height: 24px;
+}
+
+.d2-folder-heading {
+  color: #3060F0;
+}
+
+.d2-foldertree-heading {
+  color: #0000FF;
+  font-weight: 600;
+}
+
+.d2-folder-heading:hover {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  cursor: pointer;
+}
+
+.d2-foldertree-heading:hover {
+  color: #4488FF;
+  font-weight: 800;
+  cursor: pointer;
+}
